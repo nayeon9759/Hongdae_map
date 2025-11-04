@@ -7,13 +7,11 @@ document.addEventListener('DOMContentLoaded', () => {
     // 📌 <img> 요소와 이미지 URL 정의
     const mapBackgroundImage = document.getElementById('map-background-image');
 
-    const IMAGE_URLS = {
-        // 🚨 14세 (과거) 지도: 현재는 PNG URL입니다. SVG URL로 교체해주세요!
-        '14': 'https://raw.githubusercontent.com/nayeon9759/NEW/refs/heads/main/%E1%84%80%E1%85%AA%E1%84%80%E1%85%A5.svg', 
-        
-        // ✅ 22세 (현재) 지도: 제공해주신 SVG URL로 교체 완료
-        '22': 'https://raw.githubusercontent.com/nayeon9759/NEW/refs/heads/main/%E1%84%92%E1%85%A7%E1%86%AB%E1%84%8C%E1%85%A2.svg' 
-    };
+  // script.js 수정 예시
+const IMAGE_URLS = {
+    '14': 'map_14.svg', 
+    '22': 'map_22.svg'  
+};
     // ------------------------------------
 
     // 모달 관련 요소
